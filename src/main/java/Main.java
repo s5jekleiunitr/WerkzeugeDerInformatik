@@ -5,8 +5,11 @@ public class Main {
 
         Car car = new Car("red", "VW", 5);
         Car car1 = new Car("blue", "Audi", 3);
+        Car car2 = new Car("red", "VW", 3);
+
 
         factory.buildCar(car);
         factory.buildCar(car1);
+        factory.buildCar(car2);
     }
 }
